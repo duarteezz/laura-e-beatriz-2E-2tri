@@ -15,6 +15,10 @@ body {
     background-color: #cc88f3;
 }
 
+.lista-titulo{
+    background-color: var(--branco);
+    color: var(--roxo);
+}
 
 .menu-hamburguer{
     width: 24px;
@@ -28,6 +32,8 @@ body {
 
 .menu-lista {
     display: none;
+    position: absolute;
+    width: 60vw;
 }
 
 .menu-checkbox:checked ~.menu-lista{
@@ -36,6 +42,8 @@ body {
 
 .lista-item {
     padding: 1em;
-    background-color: #ba86d8;;
+    background-color: #ba86d8;
+    
 
 }
+
