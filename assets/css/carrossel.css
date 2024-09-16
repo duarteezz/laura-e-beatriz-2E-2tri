@@ -55,3 +55,20 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.botao-ancora{
+    background-color: orange;
+    padding: 1em;
+    border-radius: 12px;
+}
+
+.descricao-titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0%;
+}
+
+.descricao-texto{
+    font-size: 14px;
+}
