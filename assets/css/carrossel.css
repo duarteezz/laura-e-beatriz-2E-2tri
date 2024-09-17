@@ -39,7 +39,7 @@
 }
 
 .descricao-titulo{
-    color: orange;
+    color: var(--roxo);
     font-weight: 700;
     font-size: 20px;
 }
@@ -57,18 +57,32 @@
 }
 
 .botao-ancora{
-    background-color: orange;
-    padding: 1em;
-    border-radius: 12px;
+    background-color: var(--roxo);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .descricao-titulo-livro{
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
-    margin: 0.5em 0%;
+    margin: 0.5em 0;
 }
 
 .descricao-texto{
     font-size: 14px;
+}
+
+.topicos-titulo{
+    background-color: var(--roxo);
+}
+
+.topicos-lista{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1em;
+    align-items: flex-start;
 }
