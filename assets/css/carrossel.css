@@ -75,14 +75,3 @@
 .descricao-texto{
     font-size: 14px;
 }
-
-.topicos-titulo{
-    background-color: var(--roxo);
-}
-
-.topicos-lista{
-    display: flex;
-    justify-content: center;
-    box-shadow: 1em;
-    align-items: flex-start;
-}
